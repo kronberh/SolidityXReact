@@ -35,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@lighthouse-web3/sdk": "^0.3.7",
+    "web3": "^4.16.0"
   }
 }
