@@ -3,8 +3,8 @@ import web3 from './web3';
 import contract from './contracts/counter';
 
 function App() {
-  const [account, setAccount] = useState();
-  const [value, setValue] = useState();
+  const [account, setAccount] = useState('');
+  const [value, setValue] = useState(0);
   const [storedValue, setStoredValue] = useState()
 
   async function loadAccounts() {

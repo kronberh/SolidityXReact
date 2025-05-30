@@ -39,6 +39,6 @@ contract Media {
         assembly {
             mstore(notDeletedArts, trueLen)
         }
-        return arts;
+        return notDeletedArts;
     }
 }
